@@ -29,7 +29,7 @@
          return result;
      }
  //Exponential of two numbers
-     function exponential(uint num1, uint num2) internal pure returns(uint){
+     function exponential(uint num1, uint num2) internal returns(uint){
          uint result = num1 ** num2;
          return result;
      }
@@ -48,7 +48,7 @@
      //variable declared here.
          using arithmetic for uint;
     
-    uint result;
+    uint res;
  
      //we  declared two uint (_num1 and _num2) and assigned a number to them
          uint _num1 = 5;
@@ -59,9 +59,18 @@
  
      // We create a function getExponent that accepts two input and we return their exponential
      //using the exponential method in the library.
-         function getExponent(uint num1, uint num2) external returns(uint){
-             uint output = num1.exponential(num2);
-             result = output;
-             return output;
+        //  function getExponent(uint num1, uint num2) external returns(uint){
+        //      uint output = num1.exponential(num2);
+        //      res = output;
+        //      return output;
+        //  }
+
+         string name;
+         function saveName(string memory _name) external {
+            name = _name;
+         }
+
+         function getName() external view returns(string memory) {
+            return name;
          }
      }

@@ -1,0 +1,17 @@
+i am the guy who created the ariithmetic library that wasn't changing the state
+My contract wasn't changing the state... so i had extra feature to the code and this is the transaction hash
+0x9a5796e3fe359c5e6c65042501b51677f122e4cf040034ace69f4260c5c334f3
+contract address: 0x0E51551541dd553f12da0368aF498a2E06b0d144
+
+
+i was having issues on my hardhat stating... usdt address is not a contract address so after the class, i have to switch
+off my laptop and run it again
+and it run perfectly well,
+
+the screenshot of my errors and my output and the later result have been applied this document.
+
+
+note: WETH doesn't have a balanceOf function but so the value remain 0 but the usdt balance reduced
+after the transaction.
+
+Thank you.

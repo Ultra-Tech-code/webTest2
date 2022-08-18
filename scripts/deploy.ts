@@ -8,6 +8,16 @@ async function main() {
   await test.deployed();
 
   console.log("Test deployed to: ", test.address);
+
+  const x = await test.saveName("BlackAdam");
+  const y = await x.wait();
+  console.log("Loggg: ", y);
+
+  const a = await test.getName();
+  console.log("DEEE: ", a);
+  
+  
+
 }
 
 
